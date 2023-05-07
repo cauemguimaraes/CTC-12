@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lab1tests.dir/test/testLab1.cpp.o CMakeFiles/lab1tests.dir/src/hash.cpp.o CMakeFiles/lab1tests.dir/src/hashfunctions.cpp.o -o lab1tests  lib/libgtest.a lib/libgtest_main.a lib/libgtest.a 

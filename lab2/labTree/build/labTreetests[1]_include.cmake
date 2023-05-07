@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/cauem/OneDrive/Área de Trabalho/ITA/ITA 5S/CTC_12/lab2/labTree/build/labTreetests[1]_tests.cmake")
+  include("/mnt/c/Users/cauem/OneDrive/Área de Trabalho/ITA/ITA 5S/CTC_12/lab2/labTree/build/labTreetests[1]_tests.cmake")
+else()
+  add_test(labTreetests_NOT_BUILT labTreetests_NOT_BUILT)
+endif()

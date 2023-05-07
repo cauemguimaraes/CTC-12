@@ -1,0 +1,21 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "C:\Users\cauem\OneDrive\Área de Trabalho\ITA\ITA 5S\CTC_12\lab1\teste"
+-- The CXX compiler identification is GNU 9.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/MinGW/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_VERSION="3.20.2"
+CMake Error: The current CMakeCache.txt directory C:/Users/cauem/OneDrive/â”œÃ¼rea de Trabalho/ITA/ITA 5S/CTC_12/lab1/teste/cmake-build-debug/_deps/googletest-subbuild/CMakeCache.txt is different than the directory c:/Users/cauem/OneDrive/â”œÃ¼rea de Trabalho/ITA/ITA 5S/CTC_12/lab1/lab1hash/cmake-build-debug/_deps/googletest-subbuild where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+
+CMake Error at C:/Program Files/JetBrains/CLion 2021.2.1/bin/cmake/win/share/cmake-3.20/Modules/FetchContent.cmake:1000 (message):
+  CMake step for googletest failed: 1
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2021.2.1/bin/cmake/win/share/cmake-3.20/Modules/FetchContent.cmake:1141:EVAL:2 (__FetchContent_directPopulate)
+  C:/Program Files/JetBrains/CLion 2021.2.1/bin/cmake/win/share/cmake-3.20/Modules/FetchContent.cmake:1141 (cmake_language)
+  C:/Program Files/JetBrains/CLion 2021.2.1/bin/cmake/win/share/cmake-3.20/Modules/FetchContent.cmake:1184 (FetchContent_Populate)
+  CMakeLists.txt:54 (FetchContent_MakeAvailable)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/cauem/OneDrive/Ã�rea de Trabalho/ITA/ITA 5S/CTC_12/lab1/teste/cmake-build-debug/CMakeFiles/CMakeOutput.log".

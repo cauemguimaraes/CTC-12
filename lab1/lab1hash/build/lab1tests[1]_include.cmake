@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/cauem/OneDrive/Área de Trabalho/ITA/ITA 5S/CTC_12/lab1/lab1hash/build/lab1tests[1]_tests.cmake")
+  include("/mnt/c/Users/cauem/OneDrive/Área de Trabalho/ITA/ITA 5S/CTC_12/lab1/lab1hash/build/lab1tests[1]_tests.cmake")
+else()
+  add_test(lab1tests_NOT_BUILT lab1tests_NOT_BUILT)
+endif()
